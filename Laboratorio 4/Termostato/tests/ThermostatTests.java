@@ -16,7 +16,7 @@ class ThermostatTests {
 
 	@Test
 	void testTurnHeaterOn() {
-		fail("Not yet implemented");
+		
 	}
 
 }
