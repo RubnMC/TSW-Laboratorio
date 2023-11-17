@@ -22,7 +22,7 @@ class MensajeTest {
 		when(dummyTE.preparaMensaje(any(Template.class), any(Cliente.class))).thenReturn("Mensaje");
 		
 		mensaje.sendMensaje(dummyCliente, dummyTemplate);
-		verify(dummyMailServer).send(dummyCliente.getEmail(),"Mensaje");
+		verify(dummyMailServer).send("HolaSOyUNMAIL","Mensaje");
 	}
 
 }

@@ -8,14 +8,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/apiguardian-api-1.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/byte-buddy-1.14.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/byte-buddy-agent-1.14.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/junit-jupiter-api-5.10.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/junit-platform-commons-1.10.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/mockito-core-5.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/mockito-junit-jupiter-5.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/objenesis-3.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mercedes/Dropbox/TSW 2023 2024/Practicas/Proyectos Eclipse Practicas/Librerias/opentest4j-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/apiguardian-api-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/byte-buddy-1.14.9.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/byte-buddy-agent-1.14.9.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/junit-jupiter-api-5.10.0.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/junit-platform-commons-1.10.0.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/mockito-core-5.7.0.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/mockito-junit-jupiter-5.7.0.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/objenesis-3.3.jar"/>
+	<classpathentry kind="lib" path="/Laboratorio de Mockito/Librerias/opentest4j-1.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
