@@ -1,7 +1,6 @@
 package Bolsa;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 
 import java.math.BigDecimal;
@@ -11,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 class StockBrokerTest {
 	
-	Stock stock;
+	Stock stock, stockCaido;
 	StockBroker stockBroker;
 	AnalistaMercado dummyAnalista;
 	Portfolio dummyPortfolio;
@@ -19,7 +18,7 @@ class StockBrokerTest {
 
 	@BeforeEach
 	void setUp(){
-		stock = new Stock("1", "StockEx", new BigDecimal(12312312));
+		stock = new Stock("1", "StockEx", new BigDecimal(98));
 		dummyAnalista = mock(AnalistaMercado.class);
 		stockBroker = new StockBroker(dummyAnalista);
 		dummyPortfolio = mock(Portfolio.class);
@@ -27,7 +26,14 @@ class StockBrokerTest {
 
 	@Test
 	void testMercadoCaido() throws Exception {
-		fail("hola");
+		
+		when(dummyAnalista.getCotizacion(stock.getSimbolo())).thenThrow(new IllegalStateException("Mercado Caido"));
+		
+		try{
+			stockBroker.perform(dummyPortfolio, stock);	
+		} catch(IllegalStateException e) {
+			assertEquals(e.getMessage(), "Mercado Caido");
+		}
 	}
 	
 	@Test
